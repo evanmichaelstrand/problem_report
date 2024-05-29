@@ -1,0 +1,126 @@
+Time period:,7days
+Total Problem Count,528
+
+Problem Name,Problem Count,Problems/Day
+Failure rate increase,180,25.714285714285715
+Response time degradation,32,4.571428571428571
+CPU saturation,31,4.428571428571429
+JavaScript error rate increase,31,4.428571428571429
+Memory usage close to limits,27,3.857142857142857
+Out-of-memory kills,27,3.857142857142857
+Failed database connects,26,3.7142857142857144
+User action duration degradation,25,3.5714285714285716
+Multiple application problems,24,3.4285714285714284
+Backoff event,22,3.142857142857143
+Juniper Routing Engine high temperature,14,2.0
+Cisco Memory Free critical low,14,2.0
+Browser monitor global outage,11,1.5714285714285714
+Process CPU problem.,8,1.1428571428571428
+High CPU throttling,8,1.1428571428571428
+Browser monitor local outage,7,1.0
+Potential DDoS attack on the Oracle DB,7,1.0
+Memory saturation,7,1.0
+Mobile app error rate increase,6,0.8571428571428571
+Mobile app crash rate increase,6,0.8571428571428571
+Http monitor local outage,5,0.7142857142857143
+Multiple service problems,3,0.42857142857142855
+Custom application has unexpected drop in usage,2,0.2857142857142857
+Host or monitoring unavailable,2,0.2857142857142857
+AWS Lambda error rate (based on errorsSum and invocationsSum) [AWS],2,0.2857142857142857
+Unexpected low load,1,0.14285714285714285
+
+Alerting Profile,Problem Count,Problems/Day
+ServiceNow Default Problem Notification Profile,528,75.42857142857143
+Default,457,65.28571428571429
+process_crash_autoremediation,162,23.142857142857142
+deployment_change_autoremediation,94,13.428571428571429
+cpu_saturation_alerting,7,1.0
+DEM-MobileAppCrashIncrease,7,1.0
+
+Entity,Entity Name,Problem Count,Problems/Day
+SERVICE-F6BF5FFBC0DF309A,loadgenerator,95,13.571428571428571
+CLOUD_APPLICATION-AB5A955FA0F3EC4E,frontend,50,7.142857142857143
+APPLICATION-CB0200BF7867BEA0,www.angular.easytravel.com,39,5.571428571428571
+SERVICE-65BDC31767096F4D,EasytravelService,35,5.0
+SERVICE-EBEBD979AA8D93AA,"[alfa, beta][hipster-shop] hipstershop.AdService (grpc://hipstershop.AdService)",32,4.571428571428571
+SERVICE-DAD9C23562B70097,easyTravel Customer Frontend,28,4.0
+SERVICE-8F44FE226995B6FC,EasyTravelWebserver:8079,28,4.0
+SERVICE-15A952450FC2173A,[Extensions][tomcat-connection-pools-demo] mysql,26,3.7142857142857144
+CLOUD_APPLICATION-DACE52B9E2D2B330,unguard-user-auth-service,22,3.142857142857143
+MOBILE_APPLICATION-21CB4989D0A546C7,easyTravel Mobile,22,3.142857142857143
+APPLICATION-08EBD5603755FA87,www.easytravel.com,22,3.142857142857143
+SYNTHETIC_TEST-2D82D48C9FCA6B8E,angular easytravel booking,21,3.0
+SERVICE-B41FA3B7CC1AD9A4,EasyTravelBackendWebserver:8091,21,3.0
+SERVICE-CD37B684C236BB6B,EasyTravelWebserver:9079,21,3.0
+SERVICE-A1A359DA88BFB52C,[Extensions][tomcat-connection-pools-demo] minuteman (/minuteman),15,2.142857142857143
+CUSTOM_DEVICE-4528F05FF64E4DEA,Juniper network device juniper#0 @ 192.168.2.23:161,14,2.0
+CUSTOM_DEVICE-C6847DD57C096D86,Cisco network device cisco#0 @ 192.168.2.13:161,14,2.0
+HTTP_CHECK-1A6D3C6566B45A64,easytravel storebooking,14,2.0
+SERVICE-405479618179AA1E,JourneyService,14,2.0
+SERVICE-989BF1FCABC64E35,AuthenticationService,14,2.0
+HOST-3873B1D6B9280D7C,cpu1-demo1,14,2.0
+SERVICE-344544174B4CB14D,Third Party Currency Converter,12,1.7142857142857142
+SERVICE-119245B91029D790,Oauth 2 / Open ID / Identity Server,12,1.7142857142857142
+APPLICATION-7F6ACE5C74505040,www.vmware.easytravel.com,10,1.4285714285714286
+HOST-CDF565776844547D,weblauncher-demo.c.dynatrace-demoability.internal,9,1.2857142857142858
+PROCESS_GROUP_INSTANCE-D811F905449DAC00,webserver,8,1.1428571428571428
+HOST-2CACFA56307CF0EA,frontend,8,1.1428571428571428
+SERVICE-CDB19ADEBE7C9810,[eks][easytrade] :80,8,1.1428571428571428
+HOST-A602AF91A3E8AEE4,BB2-apache-tomcatjms-iis,8,1.1428571428571428
+SERVICE-C88D06B48586D544,[eks][easytrade] easytrade_offer_service,8,1.1428571428571428
+SERVICE-CA25620C434E5D48,[eks][easytrade] BrokerService,7,1.0
+SERVICE-9E03EFC879357717,TradeManagement,7,1.0
+SERVICE-ABFA0853391003A6,DTMD on CICS,7,1.0
+SYNTHETIC_TEST-347006363413D3E0,angular easytravel abandon,7,1.0
+CUSTOM_DEVICE-E64BEFA7CFFCE280,DB1,7,1.0
+SYNTHETIC_TEST-0985CD8C47FF1DB1,Online Boutique - OpenTelemetry,7,1.0
+SERVICE-26D9443709C29EFC,CheckDestination,7,1.0
+SERVICE-1BD922B66D15648A,[gke][online-boutique] hipstershop.CheckoutService,7,1.0
+SERVICE-85AA142B301AA7C7,Reverse Proxy,7,1.0
+SERVICE-6E600049C10C9BE2,[gke][online-boutique] :8080,7,1.0
+SERVICE-43D8D6455AB8EA3F,DB1,7,1.0
+SERVICE-6B4750F0D8C7C242,BookingService,7,1.0
+SERVICE-A7FA5D53D3CD8439,azure EasytravelService,7,1.0
+SERVICE-C0E35147A3F288AF,azure CheckDestination,7,1.0
+SERVICE-BD350034ABFA2FB8,azure JourneyService,7,1.0
+HOST-40C1FE1DDE587CBE,easytravelazure-backend1.eewhjl1db2uunilgfoyhewaccf.ax.internal.cloudapp.net,7,1.0
+APPLICATION-0EE43A1512518A60,www.azure.easytravel.com,7,1.0
+PROCESS_GROUP_INSTANCE-427A20D6EF42DBB8,CouchDB_ET,7,1.0
+SERVICE-7096642554525BFD,CouchDB_ET on port 5984,7,1.0
+HOST-AA3F68D5C99A5F09,cpu3-demo1,7,1.0
+HOST-72B6B487804FE21F,cpu4-demo1,7,1.0
+HYPERVISOR-CC0FF3844F680C22,pl1l-vh90.lab.dynatrace.org,7,1.0
+SERVICE-957B5918CC00FF43,JourneyService,7,1.0
+HOST-4A71599566228A76,cpu2-demo1,7,1.0
+SERVICE-61BED6683B252ACA,easyTravel Customer Frontend,7,1.0
+SERVICE-2BA214FC741C6725,CheckDestination,7,1.0
+HOST-99823C0718B3C21D,easytravel-demo1,7,1.0
+SERVICE-1415F628F6B089C1,[eks][prod] hipstershop.AdService,7,1.0
+APPLICATION-F80C45F85F795999,HipsterShopLogs,7,1.0
+CLOUD_APPLICATION-B45BBD1AD560E1B3,unguard-user-simulator,6,0.8571428571428571
+MOBILE_APPLICATION-773D0C09E8E14B58,easyTravel Mobile (mainframe),6,0.8571428571428571
+HOST-86E98F7E966EA327,BB1-apache-tomcatjms-iis,6,0.8571428571428571
+SERVICE-5D9410CAE2596DC4,"[alfa, beta][hipster-shop] hipstershop.CurrencyService (grpc://hipstershop.CurrencyService)",6,0.8571428571428571
+CLOUD_APPLICATION-CF61513C57EC1CDA,cartservice,4,0.5714285714285714
+SERVICE-09D43A941D7C9853,azure CustomerFrontendREST,4,0.5714285714285714
+SERVICE-E19494D4DBC0AB73,gcp EasytravelService,3,0.42857142857142855
+SERVICE-B003F4C7F8B12B37,Remote environment: wkf10640,3,0.42857142857142855
+CUSTOM_APPLICATION-57E7CD6BEF284AB7,easyTravel Rental Cars,2,0.2857142857142857
+SYNTHETIC_TEST-44957D6F2FCB30D6,www.vmware.easytravel.com - Loading of page /logout.jsf,2,0.2857142857142857
+SYNTHETIC_TEST-05FC3819394492D6,www.vmware.easytravel.com - Loading of page /,2,0.2857142857142857
+SYNTHETIC_TEST-11FF04AEF53D8A76,www.vmware.easytravel.com - Longer stay on page /about-orange.jsf,2,0.2857142857142857
+CLOUD_APPLICATION-148DF7A99F8864BC,dynatrace-operator,2,0.2857142857142857
+SERVICE-92A8828FAC7B63A1,azure weather-service-restify,2,0.2857142857142857
+CUSTOM_DEVICE-1A912CCFB757F305,user-info-service-staging,2,0.2857142857142857
+SERVICE-5A85D84009FF961A,[gke][online-boutique] hipstershop.CheckoutService (grpc://hipstershop.CheckoutService),1,0.14285714285714285
+SERVICE-AAC5A186F0DBAD44,gcp easyTravel Customer Frontend,1,0.14285714285714285
+HOST-9A971B640DBAF512,gke-alfa-e2-custom-2-4096-f061c10c-kiy1.c.dynatrace-demoability.internal,1,0.14285714285714285
+SERVICE-D1E696F1780F424E,easytravelazure-sql-db,1,0.14285714285714285
+SYNTHETIC_TEST-4887215C9CBB9A91,weather.azure.easytravel.com - Loading of page /forecast,1,0.14285714285714285
+SYNTHETIC_TEST-1E3A1FA70C1A890E,weather.azure.easytravel.com - Loading of page /current,1,0.14285714285714285
+SERVICE-692BB5794D36C3E2,azure weather-express,1,0.14285714285714285
+SERVICE-44A6421D6912133B,azure easytravelazure-weather-express,1,0.14285714285714285
+SERVICE-26658AFDFD63CA1D,DBCG,1,0.14285714285714285
+SERVICE-7C7966FB9A6B8D9D,[eks][easytrade] easyTradeManager,1,0.14285714285714285
+SERVICE-C41099E341F52799,quoteservice,1,0.14285714285714285
+HOST-EC446B31654A166E,gke-beta-e2-custom-2-4096-cdc84104-2l8d.c.dynatrace-demoability.internal,1,0.14285714285714285
