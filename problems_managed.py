@@ -3,11 +3,11 @@
 #This top section is all you need to configure!
 
 # 1) Set your environment ID. EX: 7d1973if-f21a-4039-bd85-d69b46c03965 (Managed)
-tenantID = "a6c4cc86-2a6b-41c6-bb4b-84cfd9ebad6e"
+tenantID = ""
 
 # 2) Set your domain 
 
-domain = "ian685.dynatrace-managed.com"
+domain = ""
 
 #3) Set your tenant token, must have "read problems" scope
 
@@ -115,6 +115,7 @@ def writeCSV(problemDict, APDict, entityDict, problemCount):
         #https://stackoverflow.com/questions/11652806/csv-write-skipping-lines-when-writing-to-csv
         writer = csv.writer(results, lineterminator = '\n')
 
+        writer.writerow(["Environment", tenantID])
         writer.writerow(["Time period:", str(timeframe) + "days"])
         writer.writerow(["Total Problem Count", str(problemCount)])
 
