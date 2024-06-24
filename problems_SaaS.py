@@ -4,14 +4,11 @@
 
 # 1) Set your environment ID. EX: guu84124 (SaaS) 
 
-tenantID = "hwz97639"
-#tenantID = "guu84124"
+tenantID = ""
 
 #2) Set your tenant token, must have "read problems" scope
 
 token = ""
-#guu token
-#token = ""
 
 #3) Set the time frame in days
 
@@ -22,7 +19,7 @@ timeframe = "7"
 import requests
 import csv
 
-url = "https://" + tenantID + ".apps.dynatrace.com/api/v2/problems?from=now-" + timeframe + "d"
+url = "https://" + tenantID + ".live.dynatrace.com/api/v2/problems?from=now-" + timeframe + "d"
 
 headers = {
     "Authorization": f"Api-Token {token}",
@@ -45,7 +42,7 @@ def callAPI(url, headers):
         if problemCount > 50:
             while data['nextPageKey']:
                 nextPageKey = data['nextPageKey']
-                newURL = "https://" + tenantID + ".apps.dynatrace.com/api/v2/problems?nextPageKey=" + nextPageKey
+                newURL = "https://" + tenantID + ".live.dynatrace.com/api/v2/problems?nextPageKey=" + nextPageKey
                 newResponse = requests.get(newURL, headers=headers)
                 newData = newResponse.json()
                 for problem in newData['problems']:
